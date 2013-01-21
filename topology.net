@@ -73,6 +73,7 @@ version = 0.8.3.1
         model = 3640
         console = 2015
         aux = 2515
+        cnfg = configs\PC6.cfg
         slot0 = NM-1FE-TX
         f0/0 = SW8 2
         symbol = computer
@@ -83,6 +84,7 @@ version = 0.8.3.1
         model = 3640
         console = 2013
         aux = 2513
+        cnfg = configs\PC4.cfg
         slot0 = NM-1FE-TX
         f0/0 = SW6 2
         symbol = computer
@@ -93,6 +95,7 @@ version = 0.8.3.1
         model = 3640
         console = 2014
         aux = 2514
+        cnfg = configs\PC5.cfg
         slot0 = NM-1FE-TX
         f0/0 = SW7 2
         symbol = computer
@@ -268,22 +271,20 @@ version = 0.8.3.1
         z = 1.0
 [GNS3-DATA]
     configs = configs
-    m11 = 1.0
-    m22 = 1.0
     [[NOTE 1]]
-        text = "10.11.0.1/30"
-        x = 33.0
-        y = -327.0
+        text = "172.16.1.9/24"
+        x = -346.0
+        y = -192.0
         font = "MS Shell Dlg 2,8,-1,5,75,0,0,0,0,0"
     [[NOTE 2]]
-        text = "10.9.0.1/30"
-        x = -124.0
-        y = -324.0
+        text = "172.16.2.11/24"
+        x = 241.0
+        y = -185.0
         font = "MS Shell Dlg 2,8,-1,5,75,0,0,0,0,0"
     [[NOTE 3]]
-        text = "10.11.0.2/30"
-        x = 155.0
-        y = -259.0
+        text = "119.119.119.1/30"
+        x = -173.0
+        y = -232.0
         font = "MS Shell Dlg 2,8,-1,5,75,0,0,0,0,0"
     [[NOTE 4]]
         text = "119.119.119.2/30"
@@ -291,9 +292,9 @@ version = 0.8.3.1
         y = -220.0
         font = "MS Shell Dlg 2,8,-1,5,75,0,0,0,0,0"
     [[NOTE 5]]
-        text = "119.119.119.1/30"
-        x = -173.0
-        y = -232.0
+        text = "172.16.1.11/24"
+        x = 112.0
+        y = -173.0
         font = "MS Shell Dlg 2,8,-1,5,75,0,0,0,0,0"
     [[NOTE 6]]
         text = "10.9.0.2/30"
@@ -301,34 +302,34 @@ version = 0.8.3.1
         y = -263.0
         font = "MS Shell Dlg 2,8,-1,5,75,0,0,0,0,0"
     [[NOTE 7]]
-        text = "172.16.1.11/24"
-        x = 112.0
-        y = -173.0
+        text = "10.11.0.1/30"
+        x = 33.0
+        y = -327.0
         font = "MS Shell Dlg 2,8,-1,5,75,0,0,0,0,0"
     [[NOTE 8]]
-        text = "172.16.2.11/24"
-        x = 241.0
-        y = -185.0
+        text = "10.11.0.2/30"
+        x = 155.0
+        y = -259.0
         font = "MS Shell Dlg 2,8,-1,5,75,0,0,0,0,0"
     [[NOTE 9]]
-        text = "172.16.1.9/24"
-        x = -346.0
-        y = -192.0
+        text = "10.9.0.1/30"
+        x = -124.0
+        y = -324.0
         font = "MS Shell Dlg 2,8,-1,5,75,0,0,0,0,0"
     [[NOTE 10]]
-        text = "172.16.2.9/24"
-        x = -203.0
-        y = -170.0
+        text = "172.16.1.1/24"
+        x = -525.0
+        y = 58.0
         font = "MS Shell Dlg 2,8,-1,5,75,0,0,0,0,0"
     [[NOTE 11]]
-        text = "172.16.2.7/24"
-        x = 344.0
-        y = 67.0
+        text = "172.16.1.2/24"
+        x = -401.0
+        y = 73.0
         font = "MS Shell Dlg 2,8,-1,5,75,0,0,0,0,0"
     [[NOTE 12]]
-        text = "172.16.2.6/24"
-        x = 203.0
-        y = 63.0
+        text = "172.16.1.3/24"
+        x = -149.0
+        y = 68.0
         font = "MS Shell Dlg 2,8,-1,5,75,0,0,0,0,0"
     [[NOTE 13]]
         text = "172.16.2.5/24"
@@ -336,30 +337,30 @@ version = 0.8.3.1
         y = 63.0
         font = "MS Shell Dlg 2,8,-1,5,75,0,0,0,0,0"
     [[NOTE 14]]
-        text = "172.16.1.3/24"
-        x = -149.0
-        y = 68.0
+        text = "172.16.2.6/24"
+        x = 203.0
+        y = 63.0
         font = "MS Shell Dlg 2,8,-1,5,75,0,0,0,0,0"
     [[NOTE 15]]
-        text = "172.16.1.2/24"
-        x = -401.0
-        y = 73.0
+        text = "172.16.2.7/24"
+        x = 344.0
+        y = 67.0
         font = "MS Shell Dlg 2,8,-1,5,75,0,0,0,0,0"
     [[NOTE 16]]
-        text = "172.16.1.1/24"
-        x = -525.0
-        y = 58.0
+        text = "172.16.2.9/24"
+        x = -203.0
+        y = -170.0
         font = "MS Shell Dlg 2,8,-1,5,75,0,0,0,0,0"
     [[NOTE 17]]
         text = "2"
-        x = 75.4599621765
-        y = 17.7892520378
-        interface = SW8 2
+        x = 75.4921599372
+        y = 16.7919239592
+        interface = SW6 2
     [[NOTE 18]]
         text = "1"
-        x = 32.1159494419
-        y = -23.856595462
-        interface = SW8 1
+        x = 46.9939154227
+        y = -22.3130514088
+        interface = SW6 1
     [[NOTE 19]]
         text = "2"
         x = 75.4876298094
@@ -372,216 +373,221 @@ version = 0.8.3.1
         interface = SW7 1
     [[NOTE 21]]
         text = "2"
-        x = 75.4921599372
-        y = 16.7919239592
-        interface = SW6 2
+        x = 75.4402347058
+        y = 18.1857839889
+        interface = SW4 2
     [[NOTE 22]]
         text = "1"
-        x = 46.9939154227
-        y = -22.3130514088
-        interface = SW6 1
+        x = 43.1965784288
+        y = -23.2525499871
+        interface = SW4 1
     [[NOTE 23]]
         text = "2"
         x = 75.4876298094
         y = 15.0052828406
         interface = SW5 2
     [[NOTE 24]]
-        text = "2"
-        x = 75.4402347058
-        y = 18.1857839889
-        interface = SW4 2
-    [[NOTE 25]]
-        text = "1"
-        x = 43.1965784288
-        y = -23.2525499871
-        interface = SW4 1
-    [[NOTE 26]]
-        text = "2"
-        x = 75.433597667
-        y = 13.6961385961
-        interface = SW3 2
-    [[NOTE 27]]
-        text = "1"
-        x = 52.6837293223
-        y = -20.1209004121
-        interface = SW3 1
-    [[NOTE 28]]
-        text = "f0/0"
-        x = -7.45996217648
-        y = 27.7107479622
-        interface = PC6 f0/0
-    [[NOTE 29]]
-        text = "f0/0"
-        x = -7.48762980939
-        y = 28.5052828406
-        interface = PC5 f0/0
-    [[NOTE 30]]
-        text = "f0/0"
-        x = -6.9921599372
-        y = 21.2080760408
-        interface = PC4 f0/0
-    [[NOTE 31]]
-        text = "f0/0"
-        x = -7.48762980939
-        y = 30.4947171594
-        interface = PC3 f0/0
-    [[NOTE 32]]
-        text = "f0/0"
-        x = -7.44023470579
-        y = 27.3142160111
-        interface = PC2 f0/0
-    [[NOTE 33]]
-        text = "f0/0"
-        x = -6.93359766702
-        y = 24.3038614039
-        interface = PC1 f0/0
-    [[NOTE 34]]
-        text = "f1/0"
-        x = 36.3840505581
-        y = 61.856595462
-        interface = R6 f1/0
-    [[NOTE 35]]
-        text = "f0/0"
-        x = 1.68706980976
-        y = -2.88976502301
-        interface = R6 f0/0
-    [[NOTE 36]]
-        text = "f1/0"
-        x = 29.5181212129
-        y = 61.8481683407
-        interface = R5 f1/0
-    [[NOTE 37]]
-        text = "f0/0"
-        x = 23.838426651
-        y = -16.9366867333
-        interface = R5 f0/0
-    [[NOTE 38]]
-        text = "f1/0"
-        x = 21.5060845773
-        y = 60.3130514088
-        interface = R4 f1/0
-    [[NOTE 39]]
-        text = "f0/0"
-        x = 58.9512195122
-        y = -8.43902439024
-        interface = R4 f0/0
-    [[NOTE 40]]
-        text = "f0/0"
-        x = 6.18854968125
-        y = -7.68410571005
-        interface = R3 f0/0
-    [[NOTE 41]]
-        text = "f1/0"
-        x = 25.3034215712
-        y = 61.2525499871
-        interface = R2 f1/0
-    [[NOTE 42]]
-        text = "f0/0"
-        x = 35.2892353447
-        y = -17.9344387908
-        interface = R2 f0/0
-    [[NOTE 43]]
-        text = "f1/0"
-        x = 15.8162706777
-        y = 58.1209004121
-        interface = R1 f1/0
-    [[NOTE 44]]
-        text = "f0/0"
-        x = 62.4646990715
-        y = -5.05238452759
-        interface = R1 f0/0
-    [[NOTE 45]]
         text = "1"
         x = 10.8247334709
         y = -15.4822366061
         interface = SW2 1
-    [[NOTE 46]]
+    [[NOTE 25]]
         text = "2"
         x = -2.68649814626
         y = 4.09238229848
         interface = SW2 2
-    [[NOTE 47]]
+    [[NOTE 26]]
         text = "5"
         x = 66.8129301902
         y = 40.889765023
         interface = SW2 5
-    [[NOTE 48]]
+    [[NOTE 27]]
         text = "4"
         x = 44.661573349
         y = 54.9366867333
         interface = SW2 4
-    [[NOTE 49]]
+    [[NOTE 28]]
         text = "3"
         x = 9.5487804878
         y = 46.4390243902
         interface = SW2 3
-    [[NOTE 50]]
+    [[NOTE 29]]
+        text = "2"
+        x = 75.433597667
+        y = 13.6961385961
+        interface = SW3 2
+    [[NOTE 30]]
         text = "1"
-        x = 49.843904997
-        y = -21.3396891985
-        interface = SW1 1
-    [[NOTE 51]]
+        x = 52.6837293223
+        y = -20.1209004121
+        interface = SW3 1
+    [[NOTE 31]]
         text = "2"
         x = 73.4638774431
         y = 3.40063456035
         interface = SW1 2
-    [[NOTE 52]]
+    [[NOTE 32]]
         text = "5"
         x = 62.3114503188
         y = 45.68410571
         interface = SW1 5
-    [[NOTE 53]]
+    [[NOTE 33]]
         text = "4"
         x = 33.2107646553
         y = 55.9344387908
         interface = SW1 4
-    [[NOTE 54]]
+    [[NOTE 34]]
         text = "3"
         x = 6.03530092855
         y = 43.0523845276
         interface = SW1 3
-    [[NOTE 55]]
-        text = "s0/0"
-        x = -1.66489827497
-        y = 2.04142220532
-        interface = R8 s0/0
-    [[NOTE 56]]
-        text = "f2/0"
-        x = -4.96387744315
-        y = 34.5993654396
-        interface = R8 f2/0
-    [[NOTE 57]]
-        text = "f1/0"
-        x = 57.6752665291
-        y = 53.4822366061
-        interface = R8 f1/0
-    [[NOTE 58]]
-        text = "f1/0"
-        x = 18.656095003
-        y = 59.3396891985
-        interface = R7 f1/0
-    [[NOTE 59]]
-        text = "f2/0"
-        x = 71.1864981463
-        y = 33.9076177015
-        interface = R7 f2/0
-    [[NOTE 60]]
-        text = "s0/1"
-        x = 72.8129237775
-        y = 18.1359218063
-        interface = R7 s0/1
-    [[NOTE 61]]
-        text = "s0/0"
-        x = 61.2472862573
-        y = -6.32120793854
-        interface = R7 s0/0
-    [[NOTE 62]]
+    [[NOTE 35]]
+        text = "1"
+        x = 49.843904997
+        y = -21.3396891985
+        interface = SW1 1
+    [[NOTE 36]]
+        text = "2"
+        x = 75.4599621765
+        y = 17.7892520378
+        interface = SW8 2
+    [[NOTE 37]]
+        text = "1"
+        x = 32.1159494419
+        y = -23.856595462
+        interface = SW8 1
+    [[NOTE 38]]
+        text = "f0/0"
+        x = -7.48762980939
+        y = 28.5052828406
+        interface = PC5 f0/0
+    [[NOTE 39]]
+        text = "f0/0"
+        x = -6.9921599372
+        y = 21.2080760408
+        interface = PC4 f0/0
+    [[NOTE 40]]
+        text = "f0/0"
+        x = -7.45996217648
+        y = 27.7107479622
+        interface = PC6 f0/0
+    [[NOTE 41]]
+        text = "f0/0"
+        x = -6.93359766702
+        y = 24.3038614039
+        interface = PC1 f0/0
+    [[NOTE 42]]
+        text = "f0/0"
+        x = -7.48762980939
+        y = 30.4947171594
+        interface = PC3 f0/0
+    [[NOTE 43]]
+        text = "f0/0"
+        x = -7.44023470579
+        y = 27.3142160111
+        interface = PC2 f0/0
+    [[NOTE 44]]
         text = "s0/1"
         x = 67.664898275
         y = 41.9585777947
         interface = R9 s0/1
-    [[NOTE 63]]
+    [[NOTE 45]]
         text = "s0/0"
         x = 4.7527137427
         y = 50.3212079385
         interface = R9 s0/0
+    [[NOTE 46]]
+        text = "s0/1"
+        x = -6.98037470011
+        y = 23.2528522815
+        interface = R8 s0/1
+    [[NOTE 47]]
+        text = "f2/0"
+        x = -4.96387744315
+        y = 34.5993654396
+        interface = R8 f2/0
+    [[NOTE 48]]
+        text = "f1/0"
+        x = 57.6752665291
+        y = 53.4822366061
+        interface = R8 f1/0
+    [[NOTE 49]]
+        text = "s0/0"
+        x = -1.66489827497
+        y = 2.04142220532
+        interface = R8 s0/0
+    [[NOTE 50]]
+        text = "f0/0"
+        x = 6.18854968125
+        y = -7.68410571005
+        interface = R3 f0/0
+    [[NOTE 51]]
+        text = "f1/0"
+        x = 25.3034215712
+        y = 61.2525499871
+        interface = R2 f1/0
+    [[NOTE 52]]
+        text = "f0/0"
+        x = 35.2892353447
+        y = -17.9344387908
+        interface = R2 f0/0
+    [[NOTE 53]]
+        text = "f1/0"
+        x = 15.8162706777
+        y = 58.1209004121
+        interface = R1 f1/0
+    [[NOTE 54]]
+        text = "f0/0"
+        x = 62.4646990715
+        y = -5.05238452759
+        interface = R1 f0/0
+    [[NOTE 55]]
+        text = "f2/0"
+        x = 71.1864981463
+        y = 33.9076177015
+        interface = R7 f2/0
+    [[NOTE 56]]
+        text = "f1/0"
+        x = 18.656095003
+        y = 59.3396891985
+        interface = R7 f1/0
+    [[NOTE 57]]
+        text = "s0/1"
+        x = 72.8129237775
+        y = 18.1359218063
+        interface = R7 s0/1
+    [[NOTE 58]]
+        text = "s0/0"
+        x = 61.2472862573
+        y = -6.32120793854
+        interface = R7 s0/0
+    [[NOTE 59]]
+        text = "f1/0"
+        x = 36.3840505581
+        y = 61.856595462
+        interface = R6 f1/0
+    [[NOTE 60]]
+        text = "f0/0"
+        x = 1.68706980976
+        y = -2.88976502301
+        interface = R6 f0/0
+    [[NOTE 61]]
+        text = "f1/0"
+        x = 29.5181212129
+        y = 61.8481683407
+        interface = R5 f1/0
+    [[NOTE 62]]
+        text = "f0/0"
+        x = 23.838426651
+        y = -16.9366867333
+        interface = R5 f0/0
+    [[NOTE 63]]
+        text = "f1/0"
+        x = 21.5060845773
+        y = 60.3130514088
+        interface = R4 f1/0
+    [[NOTE 64]]
+        text = "f0/0"
+        x = 58.9512195122
+        y = -8.43902439024
+        interface = R4 f0/0
