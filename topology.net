@@ -516,15 +516,15 @@ version = 0.8.3.1
         y = 46.4390243902
         interface = SW2 3
     [[NOTE 50]]
+        text = "1"
+        x = 49.843904997
+        y = -21.3396891985
+        interface = SW1 1
+    [[NOTE 51]]
         text = "2"
         x = 73.4638774431
         y = 3.40063456035
         interface = SW1 2
-    [[NOTE 51]]
-        text = "1"
-        x = 59.1169577803
-        y = -16.2837312776
-        interface = SW1 1
     [[NOTE 52]]
         text = "5"
         x = 62.3114503188
@@ -541,30 +541,30 @@ version = 0.8.3.1
         y = 43.0523845276
         interface = SW1 3
     [[NOTE 55]]
+        text = "s0/0"
+        x = -1.66489827497
+        y = 2.04142220532
+        interface = R8 s0/0
+    [[NOTE 56]]
         text = "f2/0"
         x = -4.96387744315
         y = 34.5993654396
         interface = R8 f2/0
-    [[NOTE 56]]
+    [[NOTE 57]]
         text = "f1/0"
         x = 57.6752665291
         y = 53.4822366061
         interface = R8 f1/0
-    [[NOTE 57]]
-        text = "s0/0"
-        x = -0.127028382134
-        y = -0.418741948854
-        interface = R8 s0/0
     [[NOTE 58]]
+        text = "f1/0"
+        x = 18.656095003
+        y = 59.3396891985
+        interface = R7 f1/0
+    [[NOTE 59]]
         text = "f2/0"
         x = 71.1864981463
         y = 33.9076177015
         interface = R7 f2/0
-    [[NOTE 59]]
-        text = "f1/0"
-        x = 9.38304221973
-        y = 54.2837312776
-        interface = R7 f1/0
     [[NOTE 60]]
         text = "s0/1"
         x = 72.8129237775
@@ -577,8 +577,8 @@ version = 0.8.3.1
         interface = R7 s0/0
     [[NOTE 62]]
         text = "s0/1"
-        x = 66.1270283821
-        y = 44.4187419489
+        x = 67.664898275
+        y = 41.9585777947
         interface = R9 s0/1
     [[NOTE 63]]
         text = "s0/0"
